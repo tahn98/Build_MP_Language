@@ -1,0 +1,13 @@
+
+        function digit1(n:integer):integer;
+        begin
+            if n<10 then return n;
+            return digit1(n div 10);
+        end
+        procedure main();
+        var a,b:integer;
+        begin
+            PUTINT(digit1(14526));
+            PUTINT(digit1(4526));
+        end
+        

@@ -1,0 +1,12 @@
+
+        var a : real; 
+        procedure main();
+        var b : integer;
+        begin
+            with m:integer; do
+                begin
+                m:=1;
+                putInt(m);
+                end
+        end
+        

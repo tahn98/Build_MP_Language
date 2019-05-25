@@ -1,0 +1,14 @@
+
+        function sum(a,n:integer):integer;
+        begin
+            if n<0 then return 0;
+            else return n + sum(a,n-1);
+        end
+        procedure main();
+        var a,b:integer;
+        begin
+            a:=1;
+            b:=9;
+            PUTINT(sum(a,b));
+        end
+        

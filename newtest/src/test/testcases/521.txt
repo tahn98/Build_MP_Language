@@ -1,0 +1,9 @@
+
+        procedure main();
+        var a,b,c,d : integer;
+        begin
+            a:=b:=c:=10;
+            d:=a+b-c*a-a;
+            putInt(d);
+        end
+        

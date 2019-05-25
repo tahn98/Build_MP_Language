@@ -1,0 +1,9 @@
+
+        var a : real;
+        procedure main();
+        var a : integer;
+        begin
+            a:=2;
+            putInt(2);
+        end
+        

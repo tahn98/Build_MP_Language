@@ -1,0 +1,11 @@
+
+        procedure main();
+        var a,b,c,d : integer;
+        begin
+            a:=2;
+            b:=2;
+            c:=2;
+            d:=2;
+            putInt(2+2+2+2);
+        end
+        

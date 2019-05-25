@@ -1,0 +1,14 @@
+
+        function a(x:integer; y:integer):integer;
+        begin
+            return 1;
+        end
+        procedure main();
+        var i:integer;x,y:integer;
+        begin
+            x:=1;
+            y:=2;
+            i:=a(x,y);
+            putInt(i);
+        end
+        

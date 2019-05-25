@@ -1,0 +1,7 @@
+
+        procedure main();
+        var i:real;
+        begin
+            putInt(4 mod 2);
+        end
+        

@@ -1,0 +1,7 @@
+
+        procedure main();
+        var i:real;
+        begin
+            putFloat(3/2);
+        end
+        

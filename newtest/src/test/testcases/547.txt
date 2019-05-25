@@ -1,0 +1,11 @@
+
+        procedure main();
+        var a,b:integer;
+        begin
+            a:=1;  
+            b:=5; 
+            while (a<b) do
+                a:=a+1;
+            putInt(a);
+        end
+        

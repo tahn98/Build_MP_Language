@@ -1,0 +1,16 @@
+
+        var a : real;
+        procedure main();
+        var b : real; 
+        begin
+            a := 1;
+            b := 2;
+            if (a = 1) then
+                if (b=2) then
+                    b := 100;
+                else
+                    b := 10;
+
+            putFloat(b);
+        end
+        

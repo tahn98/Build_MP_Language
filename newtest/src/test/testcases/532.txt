@@ -1,0 +1,11 @@
+
+        procedure main();
+        var a,b,c : integer;
+        begin
+            a:=1;
+            b:=2;
+            if (b > a) then
+                b:=3;            
+            putInt(b);
+        end
+        

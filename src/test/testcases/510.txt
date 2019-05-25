@@ -1,0 +1,9 @@
+
+        procedure main();
+        var a : real; b:real; 
+        begin
+            b := a := b := 2;
+            putFloat(a);
+            putFloat(b);
+        end
+        

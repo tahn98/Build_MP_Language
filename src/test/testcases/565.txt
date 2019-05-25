@@ -1,0 +1,13 @@
+
+        function print(a:real; b:real):real;
+        begin
+            return a+b;
+        end
+        procedure main();
+        var a,b : real; sum:real;
+        begin
+            a:=b:=1;
+            sum:=print(a,b);
+            putFloat(sum);
+        end
+        

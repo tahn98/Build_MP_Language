@@ -1,0 +1,12 @@
+
+        function a():real;
+        begin
+            return 1;
+        end
+        procedure main();
+        var i:real;
+        begin
+            i:=a();
+            putFloat(i);
+        end
+        

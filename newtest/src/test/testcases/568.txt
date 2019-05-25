@@ -1,0 +1,12 @@
+
+        function a():boolean;
+        begin
+            return true;
+        end
+        procedure main();
+        var b : boolean;
+        begin
+            b := a();
+            putBool(b);
+        end
+        

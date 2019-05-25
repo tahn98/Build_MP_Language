@@ -1,0 +1,12 @@
+
+        function printhello():string;
+        begin
+            return "hello";
+        end
+        procedure main();
+        var str1 : string;
+        begin
+            str1 := printhello();
+            putString(str1);
+        end
+        

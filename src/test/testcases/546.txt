@@ -1,0 +1,8 @@
+
+        procedure main();
+        var i:integer;
+        begin   
+            i:=3;
+            putInt(i>=3);
+        end
+        

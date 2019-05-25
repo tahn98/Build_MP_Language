@@ -1,0 +1,9 @@
+
+        procedure main();
+        var a,b,c : real;
+        begin
+            a:=3.0;
+            b:=2;
+            putInt(a <= b);
+        end
+        

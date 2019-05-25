@@ -1,0 +1,9 @@
+
+        procedure main();
+        var a,b,c,d : integer;
+        begin
+            a:=2;
+            b:=a+a-a;
+            putInt(b);
+        end
+        
